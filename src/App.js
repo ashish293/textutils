@@ -19,6 +19,9 @@ function App() {
 					<Route exact path="/">
 						<TextForm heading="Enter your Text to Analyse" colorMode={colorMode} />
 					</Route>
+					<Route exact path="/textutils">
+						<TextForm heading="Enter your Text to Analyse" colorMode={colorMode} />
+					</Route>
 				</Switch>
 			</Router>
 		</>
